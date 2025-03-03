@@ -1,0 +1,28 @@
+nav {
+    background-color: var(--blue);
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+nav > ul {
+    display: none;
+}
+
+nav > img {
+    width: 150px;
+    height: 100px;
+}
+
+nav > a{
+    background-color: var(--orange);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
