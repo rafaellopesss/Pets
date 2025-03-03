@@ -1,0 +1,39 @@
+[Index]
+Header vai possuir primeiramente
+    > Menu
+        > Ache seu pet
+        > Faça sua doação
+        > Nossa História
+        > Entre em contato com agente
+    > Logo
+    > Botão de adoção
+
+Banner vai ter:
+    > Amostra de feitos (Mais de 500 animais já encontraram seu lar) + botão de chamada
+
+    > Um carousel que tenha um botão que chame a pessoa para conhecer a história da organização
+
+    > 
+
+Logo após mostrar um pequeno resumo sobre quem somos:
+    > Dizer que a organização vive exclusivamente por meio de doações 
+
+
+Faça parte da nossa história: 
+    > Mostrar quantos animais já foram removidos das ruas
+
+    > Quantos animais foram adotados
+
+    > Botão para fazer sua adoção
+
+Como funciona o processo de adoção
+
+Depoimentos de pessoas que adotaram pets
+
+Outras maneiras de nos ajudar
+    > Doar ração
+    > Remédios
+    > Produtos de limpeza
+    > Ser voluntário
+    Botão de saiba Mais
+
