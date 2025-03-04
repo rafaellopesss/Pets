@@ -28,24 +28,25 @@
 }
 
 .feitos > a {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
     background-color: var(--orange);
     color: white;
  
     border-radius: 5px;
     
-    height: 40px;
+    
     width: 100px;
-    padding: 5px;
+    height: 40px;
+    padding: 10px;
 
-    display: flex;
+    
     
     font-weight: bolder;
     text-decoration: none;
-    align-items: center;
-    justify-content:center;
-
-}
-
-.feitos > a {
     
+
 }
+

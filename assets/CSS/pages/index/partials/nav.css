@@ -78,17 +78,24 @@ nav > ul > li:hover {
 
 
 .botaoadote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     background-color: var(--orange);
     color: white;
     text-decoration: none;
-    padding: 5px;
+    
+    padding: 10px;
     border-radius: 5px;
     font-weight: bolder;
-    width: 100px;
+    width: 120px;
     height: 35px;
     
+
+
     text-align: center;
-    vertical-align: middle;
+    
 }
 
 .botaoadote:hover {
