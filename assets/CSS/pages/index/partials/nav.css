@@ -7,7 +7,11 @@ nav {
     align-items: center;
     position: relative;
     
+    width: 100%;
+    box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.415);
 }
+
+
 
 nav > ul {
     position: absolute;
@@ -18,8 +22,9 @@ nav > ul {
     height: 50vh;
     padding: 10px;
     color: white;
-    width: 250px;
-    animation: aparecer 0.8s ;
+    width: 50vw;
+    display: none;
+    animation: aparecer1 0.8s ;
     
 }
 nav > ul > li {
@@ -39,12 +44,12 @@ nav > ul > li:hover {
     cursor: pointer;
 }
 
-@keyframes aparecer {
+@keyframes aparecer1 {
     from {
         width: 0;
     }
     to {
-        width: 250px;
+        width: 50vw;
     }
 }
 
@@ -57,9 +62,22 @@ nav > ul > li:hover {
     cursor: pointer;
     width: 40px;
     height: 40px;
+    animation: aparecer 0.6s;
 }
 
-#botaoadote{
+@keyframes aparecer {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+    to {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+.botaoadote{
     background-color: var(--orange);
     color: white;
     text-decoration: none;
@@ -70,4 +88,12 @@ nav > ul > li:hover {
     height: 35px;
     
     text-align: center;
+    vertical-align: middle;
+}
+
+.botaoadote:hover {
+    background-color: white;
+    border-color: var(--orange);
+    color: orange;
+    transition: .7s;
 }

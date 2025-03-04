@@ -1,0 +1,51 @@
+#banner {
+    background-image: url(../../../../Imagens/pages/index/banner\ dog.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    
+    
+    
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+
+}
+
+.feitos {
+    color: white;
+    max-width: 400px;
+    
+    
+}
+.feitos > h1 {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+
+}
+
+.feitos > a {
+    background-color: var(--orange);
+    color: white;
+ 
+    border-radius: 5px;
+    
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+
+    display: flex;
+    
+    font-weight: bolder;
+    text-decoration: none;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.feitos > a {
+    
+}
