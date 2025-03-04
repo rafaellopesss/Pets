@@ -5,24 +5,69 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    position: relative;
     
 }
 
 nav > ul {
-    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--blue);
+    list-style: none;
+    height: 50vh;
+    padding: 10px;
+    color: white;
+    width: 250px;
+    animation: aparecer 0.8s ;
+    
+}
+nav > ul > li {
+    border: 1px solid white;
+    margin-top: 5px;
+    background-color: var(--orange);
+    border-radius: 3px;
+    padding: 5px;
+   
 }
 
-nav > img {
-    width: 150px;
-    height: 100px;
+nav > ul > li:hover {
+    background-color: white;
+    color: var(--orange);
+    border-color: var(--orange);
+    transition: .6s;
+    cursor: pointer;
 }
 
-nav > a{
+@keyframes aparecer {
+    from {
+        width: 0;
+    }
+    to {
+        width: 250px;
+    }
+}
+
+#logoapipa {
+    width: 100px;
+    height: 71px;
+}
+
+#menu {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+#botaoadote{
     background-color: var(--orange);
     color: white;
     text-decoration: none;
     padding: 5px;
     border-radius: 5px;
     font-weight: bolder;
+    width: 100px;
+    height: 35px;
+    
+    text-align: center;
 }
