@@ -1,0 +1,22 @@
+section#quemsomos {
+    padding: 5px;
+}
+
+section#quemsomos > h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px;
+}
+section#quemsomos p {
+    text-align: justify;
+    text-indent: 20px;
+}
+section#luma {
+    
+}
+
+section#luma > img {
+    width: 250px;
+    
+    height: 226px;
+}
