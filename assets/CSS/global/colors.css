@@ -3,3 +3,9 @@
     --orange: #ff914d;
 }
 
+.azul {
+    color: var(--blue);
+}
+.laranja {
+    color: var(--orange);
+}

@@ -3,4 +3,5 @@
 @import '../../global/global.css';
 @import 'partials/nav.css';
 @import 'partials/banner.css';
-@import 'partials/sectionquemsomos.css'
+@import 'partials/sectionquemsomos.css';
+@import 'partials/sectionajuda.css';
