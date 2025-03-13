@@ -1,0 +1,14 @@
+section#adotadores {
+    padding: 10px;
+}
+
+section#adotadores > h1 {
+    margin-bottom: 10px;
+}
+
+.cardadotadores > img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center top;
+}
