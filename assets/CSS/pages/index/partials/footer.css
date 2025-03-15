@@ -1,0 +1,15 @@
+footer {
+    background-color: var(--blue);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+section#midias {
+    margin-top: 20px;
+}
+section#midias > h1 {
+    color: white;
+    margin-bottom: 15px;
+}
