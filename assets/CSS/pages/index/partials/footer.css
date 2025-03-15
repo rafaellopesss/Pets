@@ -1,6 +1,6 @@
 footer {
     background-color: var(--blue);
-    height: 250px;
+    height: 200px;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -10,6 +10,14 @@ section#midias {
     margin-top: 20px;
 }
 section#midias > h1 {
+    font-size: 2em;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+}
+section#iconmidias {
+    display: flex;
+    justify-content: space-around;
+}
+section#iconmidias > img {
+    cursor: pointer;
 }
