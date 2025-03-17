@@ -1,0 +1,9 @@
+:root {
+    --outfitFont: 'outfit', 'Times' ,'Serif';
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url(fonts/Outfit-VariableFont_wght.ttf) format(truetype);
+}
+

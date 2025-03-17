@@ -3,17 +3,19 @@ section#adotadores {
 }
 
 section#adotadores > h1 {
+    font-family: var(--outfitFont);
     text-align: center;
     margin-bottom: 10px;
 }
 
 .cardadotadores {
     background-color: var(--blue);
-    margin-bottom: 10px;
+    margin: 0px auto 10px auto;
     padding: 20px;
     border-radius: 5px;
     color: white;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.607);
+    max-width: 400px;
 }
 
 .cardadotadores > img {
@@ -29,7 +31,8 @@ section#adotadores > h1 {
 } 
 
 .cardadotadores > main > h1 {
-    font-size: 1.5em;
+    font-family: var(--outfitFont);
+    font-size: 1.4em;
     margin-bottom: 5px;
     color: var(--orange);
    

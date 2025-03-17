@@ -5,6 +5,7 @@
     
 }
 #comoadotar > h1 {
+    font-family: var(--outfitFont);
     text-align: center;
     margin-bottom: 25px;
 }
@@ -31,6 +32,7 @@
 }
 
 .cardadotar > h1 {
+    font-family: var(--outfitFont);
     font-size: 1.1em;
     margin-bottom: 5px;
     

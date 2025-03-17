@@ -1,3 +1,4 @@
+@import 'Outfit-Regular.ttf';
 #banner {
     background-color: rgba(0, 0, 0, 0.278);
     background-image: url(../../../../Imagens/pages/index/bannerdog.jpg);
@@ -25,10 +26,13 @@
     
     
 }
+
+
 .feitos > h1 {
     font-size: 1.7em;
     margin-bottom: 10px;
-    font-family: ;
+    font-family: var(--outfitFont);
+    font-weight: 600;
 
 }
 

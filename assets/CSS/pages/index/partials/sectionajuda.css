@@ -3,7 +3,7 @@ section#ajuda {
 }
 
 section#ajuda > h1 {
-    
+    font-family: var(--outfitFont);
     margin-bottom: 10px;
 }
 
