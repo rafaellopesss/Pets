@@ -10,10 +10,10 @@ section#adotadores > h1 {
 .cardadotadores {
     background-color: var(--blue);
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     color: white;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.408);
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.607);
 }
 
 .cardadotadores > img {

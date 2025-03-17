@@ -1,8 +1,10 @@
 #banner {
+    background-color: rgba(0, 0, 0, 0.278);
     background-image: url(../../../../Imagens/pages/index/bannerdog.jpg);
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
+    background-blend-mode: color;
     
     
     
@@ -26,6 +28,7 @@
 .feitos > h1 {
     font-size: 1.7em;
     margin-bottom: 10px;
+    font-family: ;
 
 }
 
