@@ -23,6 +23,8 @@ section#iconmidias {
     justify-content: space-around;
 }
 section#iconmidias > img {
+    width: 48px;
+    height: 48px;
     cursor: pointer;
 }
 

@@ -85,7 +85,8 @@ nav > ul > li:hover {
     background-color: var(--orange);
     color: white;
     text-decoration: none;
-    
+    font-family: var(--outfitFont);
+
     padding: 10px;
     border-radius: 5px;
     font-weight: bolder;

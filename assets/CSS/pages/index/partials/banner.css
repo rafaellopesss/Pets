@@ -1,7 +1,7 @@
 @import 'Outfit-Regular.ttf';
 #banner {
-    background-color: rgba(0, 0, 0, 0.278);
-    background-image: url(../../../../Imagens/pages/index/bannerdog.jpg);
+    background-color: rgba(0, 0, 0, 0.327);
+    background-image: url(../../../../Imagens/pages/index/bannerdog.webp);
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@
     padding: 10px;
 
     
-    
+    font-family: var(--outfitFont);
     font-weight: bolder;
     text-decoration: none;
     
