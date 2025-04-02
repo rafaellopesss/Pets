@@ -1,0 +1,42 @@
+#petsadocao {
+    
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card {
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.112);
+    border-radius: 10px;
+    
+    margin-bottom: 20px;
+    
+}
+
+.descricao {
+    padding: 10px;
+}
+
+.descricao > ul > li{
+    display: block;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.descricao > button {
+    display: block;
+    margin: 10px auto 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--blue);
+    font-weight: 700;
+    border: 1px solid white;
+    font-size: 0.9em;
+    
+}
+
