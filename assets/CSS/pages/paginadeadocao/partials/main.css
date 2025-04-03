@@ -21,13 +21,9 @@
     padding: 10px;
 }
 
-.descricao > ul > li{
-    display: block;
-    text-align: justify;
-    line-height: 25px;
-}
 
-.descricao > button {
+
+.botaoadotaragora {
     display: block;
     margin: 10px auto 0px auto;
     padding: 10px;

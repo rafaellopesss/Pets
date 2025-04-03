@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        #dad {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .card {
+            border: 1px solid black;
+            width: 200px;
+            height: 450px;
+        }
+
+        .descricao {
+            padding: 10px;
+        }
+
+        .titulo {
+            font-size: 2em;
+            color: orange;
+        }
+
+        .sobreoanimal {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" value="clicar" onclick="criarElemento()">
+    <div id="dad">
+        <div class="card">
+            <img src="caramela2.webp" alt="caramela2" class="imagemdoanimal">
+            <section class="descricao">
+                <h1 class="titulo">Caramela</h1>
+                <p class="sobreoanimal">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iure explicabo cumque eum ut suscipit asperiores possimus quis alias saepe, amet provident qui, aut, itaque quo quasi animi dolores dolor?
+                </p>
+            </section>
+        </div>
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
