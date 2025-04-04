@@ -13,6 +13,7 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
+            
         }
         .card {
             border: 1px solid black;
@@ -32,10 +33,34 @@
         .sobreoanimal {
             text-align: justify;
         }
+
+        #descricaoAnimal {
+            display: block;
+            margin-top: 20px;
+            width: 200px;
+            height: 200px;
+            resize: none;
+        }
+
+        div > input[type="button"] {
+            padding: 20px;
+            border: 1px;
+            background-color: blueviolet;
+            color: white;
+            font-weight: 700;
+        }
     </style>
 </head>
 <body>
-    <input type="button" value="clicar" onclick="criarElemento()">
+
+    <div>
+        <input type="text" name="nomeAnimal" id="nomeAnimal">
+
+        <textarea name="descricaoAnimal" id="descricaoAnimal"></textarea>
+        <input type="button" value="clicar" onclick="criarElemento()">
+    </div>
+
+    
     <div id="dad">
         <div class="card">
             <img src="caramela2.webp" alt="caramela2" class="imagemdoanimal">

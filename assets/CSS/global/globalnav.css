@@ -29,17 +29,25 @@ nav > ul {
     
     
 }
-nav > ul > li {
+
+
+nav > ul > li > a {
+    display: block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    width: 100%;
+    
     border: 1px solid white;
     margin-top: 5px;
     background-color: var(--orange);
     border-radius: 3px;
     padding: 5px;
     font-family: var(--outfitFont);
-   
+    cursor: pointer;
 }
 
-nav > ul > li:hover {
+nav > ul > li a:hover {
     background-color: white;
     color: var(--orange);
     border-color: var(--orange);

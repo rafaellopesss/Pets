@@ -3,3 +3,6 @@
 @import 'partials/nav.css';
 @import 'partials/filtro.css';
 @import 'partials/main.css';
+@import 'partials/body.css';
+@import 'mediasqueries/592-800px.css';
+@import 'mediasqueries/801-1200px.css';
