@@ -1,0 +1,47 @@
+#banner {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.349);
+    background-blend-mode: color;
+    background-image: url('../../../../images/pages/index/pizzabanner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 170px;
+    width: 80vw;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+   
+   
+}
+
+#banner h1 {
+    font-size: 1.6em;
+    line-height: 35px;
+    font-family: var(--padrao);
+}
+
+#banner a {
+   
+    background-color: var(--laranjapadrao);
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 70px;
+    color: white;
+    text-decoration: none;
+    font-family: var(--padrao);
+    font-size: .9em;
+}
+
+#banner h1, a {
+    margin: 0px 0px 0px 10px;
+}
