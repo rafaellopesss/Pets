@@ -2,12 +2,12 @@
     margin: auto;
     background-color: rgba(0, 0, 0, 0.349);
     background-blend-mode: color;
-    background-image: url('../../../../images/pages/index/pizzabanner.jpg');
+    background-image: url('../../../../images/pages/index/pizzabanner.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center left;
     height: 170px;
-    width: 80vw;
+    width: 90vw;
     border-radius: 0px 0px 10px 10px;
     color: white;
 
