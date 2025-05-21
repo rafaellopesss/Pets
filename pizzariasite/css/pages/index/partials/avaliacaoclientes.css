@@ -1,0 +1,27 @@
+#avaliacaoclientes {
+    margin: 20px;
+    
+}
+#avaliacaoclientes > h1 {
+    font-family: var(--padrao);
+    text-align: center;
+}
+
+.avaliacao {
+    margin: 20px auto;
+    width: 150px;
+    
+}
+
+
+.fotosavaliacoes {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.estrela {
+    display: block;
+    margin: 10px auto;
+    width: 120px;
+}

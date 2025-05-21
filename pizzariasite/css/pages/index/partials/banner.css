@@ -28,7 +28,7 @@
 
 #banner a {
    
-    background-color: var(--laranjapadrao);
+    background-color: red;
     padding: 5px;
     margin-top: 10px;
     display: flex;
