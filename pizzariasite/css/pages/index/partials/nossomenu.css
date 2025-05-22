@@ -20,14 +20,14 @@
 }
 
 .card {
-    max-width: 230px;
+    width: 170px;
     padding: 5px;
     margin-bottom: 5px;
 }
 
 .card > img {
-    max-width: 230px;
-    height: 100px;
+    width: 170px;
+    height: 150px;
     border-radius: 10px;
 }
 
@@ -50,7 +50,9 @@
 }
 
 .adicionarcarrinho {
+    display: block;
     margin: auto;
+    width: 100%;
     background-color: red;
     border: none;
     font-family: var(--padrao);
