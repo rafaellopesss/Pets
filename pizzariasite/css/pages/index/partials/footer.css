@@ -4,16 +4,15 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     background: darkred;
-    padding: 20px;
+    padding: 15px;
 
 }
+
+
 #redesociais {
+    text-align: center;
 }
 
-#redesociais > h1{
-    text-align: center;
-   
-}
 
 #iconsmidias {
     display: flex;
@@ -25,4 +24,26 @@ footer {
 #iconsmidias > img {
     margin: 5px;
     cursor: pointer;
+}
+#suporte > h1 {
+
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#suporte > ul > li {
+    list-style: none;
+    margin: 5px 0;
+    
+}
+
+.suporte {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.suporte > p {
+    margin: 0 5px;
+    font-size: 1.1em;
 }
