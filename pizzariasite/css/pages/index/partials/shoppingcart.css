@@ -1,9 +1,35 @@
 body {
     position: relative;
+    
+}
+#containershopping {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+#fechar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0;
+}
+#fechar > button {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border: 1px solid black;
+    cursor: pointer;
 }
 #containerpedidos {
-    height: 85%;
+    height: 75%;
     margin-bottom: 5px;
+    overflow: auto;
+    
 }
 #carrinhoCompras {
     top: 50%;
@@ -19,15 +45,16 @@ body {
 .pedido {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+    margin-bottom: 20px;
 }
 #listshoppingcarts {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-    height: 350px;
+
+    height: 370px;
     background-color: white;
     border-radius: 10px;
     border: 1px solid black;
@@ -65,4 +92,11 @@ body {
     font-size: 1em;
     font-weight: 900;
     font-family: var(--padrao);
+    cursor: pointer;
+}
+#listshoppingcarts > button:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    transition-duration: 1s;
 }
