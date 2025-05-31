@@ -9,7 +9,7 @@ body {
     transform: translate(-50%, -50%);
     height: 100vh;
     width: 100vw;
-    /* background-color: rgba(0, 0, 0, 0.493); */
+    background-color: rgba(0, 0, 0, 0.493); 
     display: none;
 }
 #fechar {
