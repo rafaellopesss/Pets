@@ -54,13 +54,32 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     height: 370px;
     background-color: white;
     border-radius: 10px;
     border: 1px solid black;
     padding: 10px;  
+    animation: pop 0.5s normal;
     
+} 
+
+@keyframes pop {
+    0%{ 
+        scale: 0;
+    }
+    100%{ 
+        scale: 1;
+    }
+
+}
+
+@keyframes popreverse {
+    0% {
+        scale: 1;
+    }
+    100% {
+        scale: 0;
+    }
 }
 
 #listshoppingcarts img{
