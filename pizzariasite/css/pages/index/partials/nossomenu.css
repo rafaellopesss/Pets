@@ -38,6 +38,18 @@
     width: 170px;
     padding: 5px;
     margin-bottom: 5px;
+    
+}
+
+@keyframes prev {
+    0%{
+        opacity: 1;
+    }
+    
+    100%{
+        opacity: 0;
+        transform: translateX(-100vw);
+    }
 }
 
 .card > img {

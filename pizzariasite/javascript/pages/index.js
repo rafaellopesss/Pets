@@ -21,16 +21,23 @@ buttonNext.addEventListener('click', () => {
 })
 
 buttonPrev.addEventListener('click', () => {
-    if (contador != 0){
-        card[contador].style.display = 'none'
-        contador --
-        card[contador].style.display = 'block'
-    }else {
-        card[contador].style.display = 'none'
-        contador = cardTamanho
-        card[contador].style.display = 'block'
+    card[contador].style.animation = 'prev 1s normal '
+    setTimeout(() => {
+        if (contador != 0){
+            card[contador].style.display = 'none'
+            contador --
+            card[contador].style.display = 'block'
+            
+        }else {
+            card[contador].style.display = 'none'
+            contador = cardTamanho
+            card[contador].style.display = 'block'
+        
+            
 
     }
+    }, 1050)
+    
 })
 
 carrinhoCompras.addEventListener('click', () => {
