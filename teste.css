@@ -1,0 +1,13 @@
+.item {
+    user-select: none;
+}
+.item1 {
+    background-color: black;
+}
+.item2 {
+    background-color: pink;
+}
+
+.item3 {
+    background-color: violet;
+}
