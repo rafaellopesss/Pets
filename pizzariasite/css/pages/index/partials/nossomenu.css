@@ -1,6 +1,7 @@
 #menu {
     margin: 20px auto 0px auto;
     
+    
 }
 #menu > h1 {
     font-family: var(--padrao);
@@ -10,13 +11,14 @@
     margin-bottom: 10px;
     font-size: 1.7em;
 }
-#all-container {
+.all-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 
 }
-#all-container > button {
+.all-container > button {
     background-color: darkred;
     color: white;
     font-weight: 600;
@@ -26,38 +28,23 @@
     font-size: 1.5em;
     cursor: pointer;
 }
-#container-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
 
-.card {
-    width: 170px;
-    padding: 5px;
-    margin-bottom: 5px;
-    
-}
 
-@keyframes prev {
-    0%{
-        opacity: 1;
-    }
-    
-    100%{
-        opacity: 0;
-        transform: translateX(-100vw);
-    }
-}
+
+
 
 .card > img {
     width: 170px;
     height: 150px;
     border-radius: 10px;
+    display: block;
+    margin: auto;
+    
 }
-
+.descricao {
+    width: 170px;
+    margin: auto;
+}
 .descricao > h1{
     font-family: var(--padrao);
     margin-top: 5px;
@@ -79,7 +66,7 @@
 .adicionarcarrinho {
     display: block;
     margin: auto;
-    width: 100%;
+    width: 170px;
     background-color: red;
     border: none;
     font-family: var(--padrao);
@@ -92,6 +79,10 @@
     
 }
 
-.hidden {
-    display: none;
+
+:root {
+    --swiper-navigation-color: darkred;
+    --swiper-pagination-bullet-active: red;
+
 }
+

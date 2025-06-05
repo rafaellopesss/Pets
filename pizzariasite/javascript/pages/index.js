@@ -5,40 +5,39 @@ let carrinhoCompras = document.getElementById('carrinhoCompras')
 let containershopping = document.getElementById('containershopping')
 let fecharbotao = document.getElementById('fecharbotao')
 let listshoppingcarts = document.getElementById('listshoppingcarts')
-let contador = 0
-let cardTamanho = card.length - 1
-buttonNext.addEventListener('click', () => {
-    if (contador < cardTamanho){
-        card[contador].style.display = 'none'
-        contador ++
-        card[contador].style.display = 'block'
-        
-    }else {
-        card[contador].style.display = 'none'
-        contador = 0
-        card[contador].style.display = 'block'
-    }
-})
 
-buttonPrev.addEventListener('click', () => {
-    card[contador].style.animation = 'prev 1s normal '
-    setTimeout(() => {
-        if (contador != 0){
-            card[contador].style.display = 'none'
-            contador --
-            card[contador].style.display = 'block'
-            
-        }else {
-            card[contador].style.display = 'none'
-            contador = cardTamanho
-            card[contador].style.display = 'block'
-        
-            
+const swiper = new Swiper('.all-container', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
 
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  
+  
+  breakpoints: {
+    0: {
+        slidesPerView: 1
+    },
+    780: {
+        slidesPerView: 2
+    },
+    1024: {
+        slidesPerView: 3
     }
-    }, 1050)
-    
-})
+  }
+});
+
 
 carrinhoCompras.addEventListener('click', () => {
     listshoppingcarts.style.animation = 'pop 0.5s normal'
