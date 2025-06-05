@@ -80,9 +80,10 @@
 }
 
 
+
 :root {
     --swiper-navigation-color: darkred;
-    --swiper-pagination-bullet-active: red;
-
+    --swiper-pagination-color: darkred;
 }
+
 
