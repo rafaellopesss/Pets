@@ -1,27 +1,55 @@
 #avaliacaoclientes {
     margin: 20px;
+    height: 400px;
     
 }
 #avaliacaoclientes > h1 {
-    font-family: var(--padrao);
     text-align: center;
+    font-size: 1.7em;
+    font-family: var(--padrao);
 }
 
+.all {
+    height: 500px;
+}
 .avaliacao {
+    display: flex;
+    flex-direction: row;
     margin: 20px auto;
     width: 150px;
     
 }
 
+.containerpessoas {
+    height: 400px;
+}
 
 .fotosavaliacoes {
     width: 150px;
     height: 150px;
     border-radius: 10px;
 }
-
-.estrela {
+.containerimgs > img{
     display: block;
     margin: 10px auto;
+}
+.estrela {
+    display: block;
+    margin: 20px auto;
     width: 120px;
+
+}
+
+.descricaocliente {
+    width: 170px;
+    margin: auto;
+}
+
+.descricaocliente > h1 {
+    font-family: var(--padrao);
+    font-size: 1.2em;
+}
+
+.descricaocliente > p {
+    font-size: 1.2em;
 }

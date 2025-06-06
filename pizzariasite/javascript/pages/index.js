@@ -39,6 +39,31 @@ const swiper = new Swiper('.all-container', {
 });
 
 
+const show = new Swiper('.all', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  speed: 450,
+  autoplay: {
+    delay:2500,
+  },
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  
+});
+
+
 carrinhoCompras.addEventListener('click', () => {
     listshoppingcarts.style.animation = 'pop 0.5s normal'
     containershopping.style.display = 'block'
