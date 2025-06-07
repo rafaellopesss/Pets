@@ -5,6 +5,7 @@ footer {
     font-weight: 700;
     background: darkred;
     padding: 15px;
+   
 
 }
 
@@ -24,6 +25,10 @@ footer {
 #iconsmidias > img {
     margin: 5px;
     cursor: pointer;
+}
+#suporte {
+    max-width: 1280px;
+    margin: auto;
 }
 #suporte > h1 {
 

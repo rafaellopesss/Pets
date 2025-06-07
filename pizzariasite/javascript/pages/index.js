@@ -33,7 +33,8 @@ const swiper = new Swiper('.all-container', {
         slidesPerView: 2
     },
     1024: {
-        slidesPerView: 3
+        slidesPerView: 3,
+        
     }
   }
 });
@@ -60,6 +61,18 @@ const show = new Swiper('.all', {
   },
 
   // And if we need scrollbar
+  breakpoints: {
+    0: {
+        slidesPerView: 1
+    },
+    780: {
+        slidesPerView: 2
+    },
+    1024: {
+        slidesPerView: 3,
+        
+    }
+  }
   
 });
 

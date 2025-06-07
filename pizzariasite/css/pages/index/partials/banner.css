@@ -1,5 +1,5 @@
 #banner {
-    margin: 0px 20px;
+    margin: 0px auto;
     background-color: rgba(0, 0, 0, 0.349);
     background-blend-mode: color;
     background-image: url('../../../../images/pages/index/pizzabanner.webp');
@@ -14,10 +14,14 @@
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    max-width: 1280px;
     
 
    
    
+}
+#bannerall {
+    margin: 0 20px;
 }
 #containerbanner{
     margin: 0px 0px 0px 10px;

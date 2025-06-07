@@ -1,6 +1,6 @@
 #menu {
     margin: 20px auto 0px auto;
-    
+    max-width: 1280px;
     
 }
 #menu > h1 {
@@ -31,7 +31,9 @@
 
 
 
-
+.swiper {
+    height: 320px;
+}
 
 .card > img {
     width: 170px;
