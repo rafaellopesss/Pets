@@ -28,13 +28,13 @@
 }
 
 #banner h1 {
-    font-size: 1.6em;
+    font-size: 1.6rem;
     line-height: 35px;
     font-family: var(--padrao);
 }
 
 #banner a {
-    font-size: 0.9em;
+    font-size: 0.9rem;
     background-color: red;
     padding: 5px;
     margin-top: 10px;

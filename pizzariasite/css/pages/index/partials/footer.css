@@ -15,7 +15,7 @@ footer {
 }
 
 #redesociais > h1{ 
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 #iconsmidias {
@@ -35,7 +35,7 @@ footer {
 }
 #suporte > h1 {
 
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-top: 10px;
     margin-bottom: 5px;
 }
@@ -53,5 +53,5 @@ footer {
 }
 .suporte > p {
     margin: 0 5px;
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
