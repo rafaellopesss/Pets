@@ -45,6 +45,10 @@ body {
     z-index: 3;
     
 }
+#carrinhoCompras > img {
+    width: 35px;
+    height: 35px;
+}
 .pedido {
     display: flex;
     align-items: center;
