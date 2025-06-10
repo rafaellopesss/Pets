@@ -4,12 +4,12 @@
     
 }
 #menu > h1 {
+    font-size: 1.7em;
     font-family: var(--padrao);
     font-weight: 600;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 1.7em;
 }
 .all-container {
     display: flex;

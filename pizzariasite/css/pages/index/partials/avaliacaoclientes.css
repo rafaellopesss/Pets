@@ -1,6 +1,7 @@
 #avaliacaoclientes {
-    margin: 20px;
+    margin: auto;
     height: 400px;
+    max-width: 1200px;
     
 }
 #avaliacaoclientes > h1 {
@@ -47,7 +48,7 @@
 
 .descricaocliente > h1 {
     font-family: var(--padrao);
-    font-size: 1.2em;
+    font-size:1.2em;
 }
 
 .descricaocliente > p {

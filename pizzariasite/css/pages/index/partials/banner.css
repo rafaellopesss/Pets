@@ -34,7 +34,7 @@
 }
 
 #banner a {
-   
+    font-size: 0.9em;
     background-color: red;
     padding: 5px;
     margin-top: 10px;
@@ -46,6 +46,5 @@
     color: white;
     text-decoration: none;
     font-family: var(--padrao);
-    font-size: .9em;
+    
 }
-
