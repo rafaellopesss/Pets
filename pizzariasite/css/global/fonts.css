@@ -2,9 +2,10 @@
 
 @font-face {
     font-family: 'poppins';
+    font-display: block;
     src: url(fonts/Poppins-Medium.ttf) format(truetype);
 }
 :root {
-    --padrao: 'poppins', 'sans-serif';
+    --padrao: 'poppins', 'Helvetica' ,'sans-serif';
 }
 
